@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Prints a list of currently running processes
+ls / proc | less
