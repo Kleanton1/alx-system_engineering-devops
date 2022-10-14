@@ -1,8 +1,8 @@
-# create a file in /tmp
+# create a file in /tmp	i
 file { 'school':
-content => 'I love puppet',
-group => 'www-data',
-mode => '0744',
-owner => 'www-data',
-path => '/tmp/school',
+  content =>  'I love Puppet',
+  group   =>  'www-data',
+  mode    => '0744',
+  owner   => 'www-data',
+  path    => '/tmp/school',
 }
