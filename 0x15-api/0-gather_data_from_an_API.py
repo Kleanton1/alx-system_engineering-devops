@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 ''' gather data from an API '''
 import requests
-from sys import argv
+import sys
 
 if __name__ == '__main__':
     # get employee response [used to get name in line 19]
